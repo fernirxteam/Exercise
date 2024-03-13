@@ -9,13 +9,13 @@ public class Main {
         String luaChon;
         int i = 0;
         do {
-            System.out.println(" ----------------------------- ");
+            System.out.println(" _____________________________ ");
             System.out.println("| 1. Them giao vien.          |");
             System.out.println("| 2. Xuat thong tin giao vien.|");
             System.out.println("| 3. Xoa giao vien.           |");
             System.out.println("| 4. So tien luong thuc linh. |");
             System.out.println("| 5. Thoat chuong trinh.      |");
-            System.out.println(" ----------------------------- ");
+            System.out.println("|_____________________________|");
             System.out.println(" ");
             System.out.print("Nhap vao chuc nang muon thuc hien : ");
             luaChon = sc.nextLine();
