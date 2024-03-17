@@ -1,0 +1,168 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    height: 100%;
+    background-color: rgb(193 225 202)  ;
+    overflow: hidden; /*Hiden scrollBar*/
+}   
+
+.form_block {  
+    margin: 50px 200px;
+    height: calc(100% - 50px*2) ;
+    
+}
+
+.form_content {
+    display: flex;
+    height: 100%;
+}
+
+/* Form Ads Css */
+.form_ads {
+    display: flex;
+    flex-direction: column;
+    height: 100% ;
+    flex: 1.3;
+    background-color:hsl(137.5deg 92.31% 94.9%) ;
+    border-radius: 20px 0px 0px 20px ;
+}
+
+
+.form_work {
+    height: 100% ;
+    flex: 1;
+    background-color: rgb(250 255 251);
+    border-radius: 0px 20px 20px 0px ;
+    
+}
+
+.form_ads_img {
+    margin: 10px auto;
+    margin-top: 40px;
+    max-height: 100%;
+    width: 50%;
+    height: 50%;
+}
+
+.form_ads_decr {
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+
+}
+
+
+.form_ads_decr h1 {
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.form_ads_decr p {  
+    font-weight: 100;
+    font-size: 15px;
+    padding: 0 100px;
+}
+
+
+
+/* Form Input Css */
+
+.form_work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-group {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_logo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    object-position: bottom;
+}
+
+.form-logo {
+    height: 20%;
+}
+.form-input {
+    flex: 1;
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.form-input input {
+    border: 1px solid rgb(229 229 229);
+    border-radius: 5px;
+}
+
+.form-input-size {
+    width: 260px;
+    height: 30px;
+}
+.form-group-input {
+    margin-top: 30px;
+}
+
+
+.form_work a {
+    color: #69a47a;
+    align-self: flex-end;
+    margin-right: 61px;
+    font-size: 13px;
+}
+
+
+.form-submit {
+    color: #fff;
+    background-color: #263238;
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+
+.or_block {
+    width: 60px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    background-color: rgb(250 255 251) ;
+}
+
+
+.hr_block {
+    height: auto;
+    padding: 15px 0;
+}
+
+.form-signinway {
+    flex-direction: row;
+    font-size: 15px;
+    height: auto;
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+svg {
+    padding-right: 5px;
+}
+
+.form_signuplink {
+    height: auto;
+    margin-top: 20px;
+    flex-direction: row;
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.form_signuplink a {
+    margin: auto auto auto 20px;
+}
