@@ -12,7 +12,7 @@ public class main {
         ManagermentOfTeacherStaff mOTS = new ManagermentOfTeacherStaff();
         int option;
         String code, name, adress;
-        int age, hardSalary, bonusSalary, netSalary, fine;
+        int age, hardSalary, bonusSalary, fine;
 
         do {
             System.out.println(" ________________________________________________");
