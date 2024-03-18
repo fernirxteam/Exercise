@@ -47,21 +47,15 @@ body {
 }
 
 .form_ads_decr {
-    font-family: "Kanit", sans-serif;
     text-align: center;
 
 }
 
 
-.form_ads_decr h1 {
-    font-weight: 500;
-    font-size: x-large;
-}
+
 
 .form_ads_decr p {  
-    font-weight: 100;
-    font-size: 15px;
-    padding: 0 100px;
+    padding: 0 140px;
 }
 
 
@@ -92,9 +86,6 @@ body {
 }
 .form-input {
     flex: 1;
-    font-family: "Kanit", sans-serif;
-    font-weight: 100;
-    font-size: 15px;
 }
 
 .form-input input {
@@ -115,23 +106,21 @@ body {
     color: #69a47a;
     align-self: flex-end;
     margin-right: 61px;
-    font-size: 13px;
 }
 
 
 .form-submit {
     color: #fff;
     background-color: #263238;
-    font-size: 13px;
     margin: 20px 0;
 }
 
 
 .or_block {
-    width: 60px;
+    width: 50px;
     text-align: center;
     position: relative;
-    bottom: 20px;
+    bottom: 18px;
     background-color: rgb(250 255 251) ;
 }
 
@@ -143,11 +132,7 @@ body {
 
 .form-signinway {
     flex-direction: row;
-    font-size: 15px;
     height: auto;
-    font-family: "Kanit", sans-serif;
-    font-weight: 100;
-    font-size: 15px;
 }
 
 svg {
@@ -158,11 +143,34 @@ svg {
     height: auto;
     margin-top: 20px;
     flex-direction: row;
-    font-family: "Kanit", sans-serif;
-    font-weight: 100;
-    font-size: 15px;
 }
 
 .form_signuplink a {
     margin: auto auto auto 20px;
+}
+
+
+/* Font */
+.font-heading {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:  "slnt" 0;
+    color: hsl(203.33deg 18.75% 18.82%);
+}
+
+.font-text {
+    color: hsl(203.33deg 18.75% 18.82%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 11px;
+}
+
+.font-link {
+    color: #65a277;
 }
