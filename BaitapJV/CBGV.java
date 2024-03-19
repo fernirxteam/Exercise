@@ -6,18 +6,18 @@ public class CBGV extends Person  {
     public double hardSalary;
     public double salaryAndBonus;
     public double fine;
-    public double staticFood;
+    public double salary;
 
     public CBGV (){
 
     }
     
-    public CBGV (double hardSalary,double salaryAndBonus,double fine,double staticFood,String name, int age, String homeTown, String teacherCode){
+    public CBGV (double hardSalary,double salaryAndBonus,double fine,double salary,String name, int age, String homeTown, String teacherCode){
         super( name, age, homeTown, teacherCode);
         this.hardSalary=hardSalary;
         this.salaryAndBonus=salaryAndBonus;
         this.fine=fine;
-        this.staticFood=staticFood;
+        this.salary=salary;
     }
 
    
@@ -45,27 +45,23 @@ public class CBGV extends Person  {
         this.fine = fine;
     }
 
-    public double getStaticFood() {
-        return staticFood;
+    public double getSalary() {
+        return salary;
     }
 
-    public void setStaticFood(double staticFood) {
-        this.staticFood = staticFood;
-    }
-    
-    public void showStaticFood(){
-        System.out.println("StaticFood    : " + (hardSalary + salaryAndBonus - fine));
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 
     public void disPlay(){
         System.out.println("Name          : " + getName());
-        System.out.println("Name          : " + getAge());
-        System.out.println("Name          : " + getHomeTown());
-        System.out.println("Name          : " + getTeacherCode());
+        System.out.println("Age           : " + getAge());
+        System.out.println("HomeTown      : " + getHomeTown());
+        System.out.println("TeachCode     : " + getTeacherCode());
         System.out.println("HardSalary    : " + hardSalary);
         System.out.println("SalaryAndBonus: " + salaryAndBonus);
         System.out.println("Fine          : " + fine );
-        System.out.println("staticFood    : " + (hardSalary + salaryAndBonus - fine));
+        System.out.println("salary        : " + (hardSalary + salaryAndBonus - fine));
     }
 }
 

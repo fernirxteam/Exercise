@@ -8,16 +8,19 @@ public class Main {
         String choose;
         do{
             System.out.println("_______________________MENU________________________ ");
-            System.out.println("|             1)Them thong tin giao vien           |");
+            System.out.println("|             1)Them giao vien                    | ");
+            System.out.println("|             2)xuat thong tin giao vien          |");
+            System.out.println("|             3)Xoa  giao vien                    |");
+            System.out.println("|_________________________________________________|");
             choose=sc.next();
             switch (choose) {
                 case "1":
                 cb = new CBGV();
                 sc.nextLine();
-                System.out.println("Enter a name         : "); cb.setName(sc.next());
+                System.out.println("Enter a name         : "); cb.setName(sc.nextLine());
                 System.out.println("Enter age            : "); cb.setAge(sc.nextInt());
                 sc.nextLine();
-                System.out.println("Enter a hometown     : "); cb.setHomeTown(sc.next());
+                System.out.println("Enter a hometown     : "); cb.setHomeTown(sc.nextLine());
                 System.out.println("Enter teacherCode    : "); cb.setTeacherCode(sc.next());
                 sc.nextLine();
                 System.out.println("Enter hardSalary     : "); cb.setHardSalary(sc.nextDouble());
@@ -30,7 +33,16 @@ public class Main {
                 System.out.println("List CBGV : ");
                 ad.disPlayCBGV();
                     break;
-            
+                case "3":
+                System.out.println("Nhap ma so can xoa");
+                String erase=sc.next();
+                if (ad.erase(erase)==true) {
+                    System.out.println("Xoa thanh cong !!");
+                }
+                else{
+                    System.out.println("Khong xoa duoc");
+                }
+                break;
                 default:
                     break;
             }

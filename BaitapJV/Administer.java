@@ -42,5 +42,14 @@ public class Administer{
         }
     }
 
-    
+    public boolean erase(String horse){
+        for (CBGV cb : ds) {
+            if(horse.equals(cb.getTeacherCode())){
+                ds.remove(cb);
+                return true;
+            }
+        }
+        return false;
+    }
+
 }
