@@ -52,15 +52,14 @@ public class QuanLyCBGV {
         return false;
     }
 
-    public boolean deleteCode(String code){
-        boolean flag = false;
+    public int deleteCode(String code){
         for (CBGV cb : ls){
             if (code.equals(cb.getCode())){
                 ls.remove(cb);
-                flag = true;
+                return ls.indexOf(cb);
             }
         }
-        return flag;
+        return 0;
     }
 
 }

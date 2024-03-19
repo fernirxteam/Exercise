@@ -53,11 +53,12 @@ public class Main {
                     String code;
                     System.out.println("nhap ma nguoi ban muon xoa : ");
                     code = sc.nextLine();
-                    if (qlcb.deleteCode(code)){
-                        System.out.println("da xoa thanh cong !");
-                    }
-                    else
+                    while (qlcb.deleteCode(code) == 0){
                         System.out.println("khong tim thay ma !");
+                        System.out.println("nhap lai ma nguoi ban muon xoa : ");
+                        code = sc.nextLine();
+                    }
+                    System.out.println("da xoa thanh cong !");
                     break;
                 case "4":
                     qlcb.xuatLuong();
