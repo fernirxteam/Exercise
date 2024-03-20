@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 
 public class people
 {
@@ -37,3 +37,27 @@ public class people
       System.out.println("tuoi=  "+age);
     }
   }
+  //   public people[] ThemNV(people peo,int i)
+  //   {
+  //    Scanner sc= new Scanner(System.in);
+  //   int dem =i;
+
+  //   String ht,ms,qq;
+  //   int age;
+  //     sc.nextLine();
+  //     System.out.println("nhap ho ten nguoi thu "+dem+": ");
+  //     ht=sc.nextLine();
+  //     System.out.println("nhap que quan nguoi thu "+dem+": ");
+  //     qq=sc.nextLine();
+  //     System.out.println("nhap ma so nguoi thu "+dem+": ");
+  //     ms=sc.nextLine();
+  //     System.out.println("nhap tuoi nguoi thu "+dem+": ");
+  //     age=sc.nextInt();
+  //     i++;
+  //      [] peo=new people[i];
+
+  //     return peo;
+     
+
+  //   }
+  // }
